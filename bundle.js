@@ -430,7 +430,8 @@ function updateLink(linkElement, obj) {
 // ^ from tutorial, "!style!css!" -> "!style-loder!css-loader!"
 
 __webpack_require__(0);
-// ^ in terminal webpack src/js/entry.js bundle.js --module-bind 'css=style-loader!css-loader'
+// ^ in terminal webpack src/js/entry.js bundle.js --module-bind 'css=style-loader!css-loader' 
+// ^^ pre webpack.config.js
 document.write(__webpack_require__(1));
 
 /***/ })
