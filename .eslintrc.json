@@ -1,0 +1,18 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-var": "error"
+    },
+    "module.exports": {
+        "extends": "google"
+    }
+}

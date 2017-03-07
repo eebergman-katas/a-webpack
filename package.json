@@ -1,0 +1,23 @@
+{
+  "name": "a-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Erin Bergman <ebergman@pillartechnology.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "_mocha --recursive",
+    "lint": "eslint .",
+    "coverage": "istanbul cover _mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.2",
+    "eslint": "^3.17.1",
+    "eslint-config-google": "^0.7.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
